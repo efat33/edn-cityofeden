@@ -1,0 +1,226 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>EDN</title>
+	<link rel="shortcut icon" href="">
+	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<link rel="stylesheet" type="text/css" href="css/messenger.css"/>
+	<link rel="stylesheet" type="text/css" href="css/messenger-theme-future.css"/>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/responsive.css"/>
+</head>
+<body>
+
+<div class="edn_top_bar_area">
+	<div class="edn_top_bar container">
+		<p><i class="fas fa-info-circle"></i> Check your inbox to verify your account - <a href="#" onclick='Messenger().post("Verification email sent. Please check your inbox.");'>Resend Verification</a></p>
+	</div>
+</div>
+<div class="edn_header_area">
+	<div class="edn_header container">
+		<div class="row">
+			<div class="col-md-6 logo">
+				<a href="#"><img src="images/edn_logo.png" alt="EDN" /></a>
+			</div>
+			<div class="col-md-6 header_right">
+				<img src="images/jonathon.png"/>
+				<i class="fas fa-angle-down"></i>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="edn_main_area">
+	<div class="edn_main container">
+		<div class="edn_greeting">
+			<div class="row">
+				<div class="col-md-9">
+					<div class="edn_greeting_left">
+						<h2>Hi Jonathan!</h2>
+						<p>You have earned 2 badges and 5 EDN tokens</p>
+						<p><span class="edn_tooltip"><img src="images/batch-left.png" alt="" /><span class="tooltiptext">Tooltip text</span></span><span class="edn_tooltip"><img src="images/batch.png" alt="" /><span class="tooltiptext">Tooltip text</span></span></p>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="edn_greeting_right">
+						<p>EDN Balance</p>
+						<p class="edn_balance"><img src="images/logo_circle.png" alt="" /> 5</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="edn_invite">
+			<div class="edn_invite_top">
+				<div class="row">
+					<div class="col-md-8 edn_invite_top_left">
+						<div class="edn_invite_inner">
+							<div class="edn_invite_inner_left">
+								<div class="pieContainer">
+								  <div class="pieBackground"></div>
+								  <div id="pieSlice1" class="hold"><div class="pie"></div></div>
+								  <div id="pieSlice2" class="hold"><div class="pie"></div></div>
+								  <div class="innerCircle"><div class="content"><img src="images/batch.png" alt="" /></div></div>
+								</div>
+							</div>
+							<div class="edn_invite_inner_right">
+								<p>Invite Friends & Earn 3 EDN Tokens for Each One</p>
+								<p><strong>Invite link:</strong> edn.cityofeden.io/r/sa938</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 edn_invite_top_right">
+						<a class="fb_icon" href="#"><i class="fab fa-facebook-f"></i></a>
+						<a class="twitter_icon" href="#"><i class="fab fa-twitter"></i></a>
+						<a class="phone_icon" href="#"><i class="fas fa-phone"></i></a>
+						<a class="mail_icon" href="#"><i class="fas fa-envelope"></i></a>
+						<a class="telegram_icon" href="#"><i class="fab fa-telegram-plane"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="edn_invite_bottom">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="edn_invite_bottom_left">
+							<h3>Current Goal</h3>
+							<p>Invite 3 friends and earn 3 EDN tokens for each one that <br />signs up.</p>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="edn_invite_bottom_right">
+							<h3>Next Milestone</h3>
+							<p>Earn 10 EDN tokens to unlock more opportunities <br />to contribute.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="edn_follow_area">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="single_edn_follow single_edn_follow_invite">
+						<p class="single_edn_follow_fp">EDN <span>5</span></p>
+						<div class="single_edn_follow_header">
+							<span><i class="fas fa-user-plus"></i></span>
+							<h3>Invite & <br />Sign Up</h3>
+						</div>
+						<p>INVITE & SIGN UP = 5 EDN Tokens</p>
+						<p class="edn_follow_btn"><a data-toggle="modal" data-target="#edn_modal" href="#">Invite (5 EDN)</a></p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="single_edn_follow single_edn_follow_twitter">
+						<p class="single_edn_follow_fp">EDN <span>1</span></p>
+						<div class="single_edn_follow_header">
+							<span><i class="fab fa-twitter"></i></span>
+							<h3>Follow Us <br />On Twitter</h3>
+						</div>
+						<p>Follow us on Twitter = 1 EDN Token</p>
+						<p class="edn_follow_btn"><a data-toggle="modal" data-target="#edn_modal" href="#">Follow (1 EDN)</a></p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="single_edn_follow single_edn_follow_linkedin">
+						<p class="single_edn_follow_fp">EDN <span>1</span></p>
+						<div class="single_edn_follow_header">
+							<span><i class="fab fa-linkedin-in"></i></span>
+							<h3>Follow Us <br />On LinkedIn</h3>
+						</div>
+						<p>Follow us on LinkedIn = 1 EDN Token</p>
+						<p class="edn_follow_btn"><a data-toggle="modal" data-target="#edn_modal" href="#">Invite (1 EDN)</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="single_edn_follow single_edn_follow_facebook">
+						<p class="single_edn_follow_fp">EDN <span>1</span></p>
+						<div class="single_edn_follow_header">
+							<span><i class="fab fa-facebook-f"></i></span>
+							<h3>Follow Us <br />On Facebook</h3>
+						</div>
+						<p>Follow us on Facebook = 1 EDN Token</p>
+						<p class="edn_follow_btn"><a data-toggle="modal" data-target="#edn_modal" href="#">Follow (1 EDN)</a></p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="single_edn_follow single_edn_follow_youtube">
+						<p class="single_edn_follow_fp">EDN <span>1</span></p>
+						<div class="single_edn_follow_header">
+							<span><i class="fab fa-youtube"></i></span>
+							<h3>Subscribe  <br />On Youtube</h3>
+						</div>
+						<p>Subscribe us on Youtube = 1 EDN Token</p>
+						<p class="edn_follow_btn"><a data-toggle="modal" data-target="#edn_modal" href="#">Subscribe (1 EDN)</a></p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="single_edn_follow single_edn_follow_reddit">
+						<p class="single_edn_follow_fp">EDN <span>1</span></p>
+						<div class="single_edn_follow_header">
+							<span><i class="fab fa-reddit-alien"></i></span>
+							<h3>Subscribe To  <br />Our Subreddit</h3>
+						</div>
+						<p>Subscribe to our Subreddit = 1 EDN Token</p>
+						<p class="edn_follow_btn"><a data-toggle="modal" data-target="#edn_modal" href="#">Subscribe (1 EDN)</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="single_edn_follow single_edn_follow_telegram">
+						<p class="single_edn_follow_fp">EDN <span>1</span></p>
+						<div class="single_edn_follow_header">
+							<span><i class="fab fa-telegram-plane"></i></span>
+							<h3>Join us <br />On Telegram</h3>
+						</div>
+						<p>Join us on Telegram = 1 EDN Token</p>
+						<p class="edn_follow_btn"><a data-toggle="modal" data-target="#edn_modal" href="#">Join us (1 EDN)</a></p>
+					</div>
+				</div>
+				<div class="col-md-4">
+				
+				</div>
+				<div class="col-md-4">
+					
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="edn_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header efl_modal_header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			</div>
+			<div class="modal-body edn_modal_body">
+				<h3>Please copy and paste your URL to your profile</h3>
+				<form action="#" method="post">
+					<input type="text" name="profile_url" /><input type="submit" value="submit" />
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/messenger.min.js"></script>
+<script type="text/javascript" src="js/messenger-theme-future.js"></script>
+
+<script type="text/javascript">
+jQuery(window).scroll(function() {    
+    var scroll = jQuery(window).scrollTop();
+	if (scroll >= 100) {
+        jQuery(".edn_header_area").addClass("header_fixed");
+    }
+	else{
+		jQuery(".edn_header_area").removeClass("header_fixed");
+	}
+});
+</script>
+</body>
+</html>
