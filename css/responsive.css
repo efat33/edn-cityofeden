@@ -58,7 +58,10 @@
   right: 10px;
 }
 .logo {
-  padding-left: 25px;
+  padding-left: 15px;
+}
+.edn_header .row {
+  margin: 0;
 }
 
 }
