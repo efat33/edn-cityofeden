@@ -1,0 +1,64 @@
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+.header_right svg.fa-angle-down {
+  right: 10px;
+}
+.edn_greeting .edn_greeting_right_col {
+  border-left: 0;
+}
+.edn_invite_bottom_left {
+  padding: 15px;
+}
+.single_edn_follow {
+  margin-bottom: 15px;
+}
+
+}
+
+
+@media screen and (max-width: 767px) {
+
+.edn_greeting .edn_greeting_right_col {
+  border-left: 0;
+}
+.edn_top_bar {
+  padding: 5px 5px 10px;
+}
+.logo {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.edn_invite_top {
+  padding: 20px 15px;
+}
+.edn_invite_bottom_left {
+  padding: 15px;
+}
+.single_edn_follow {
+  margin-bottom: 15px;
+}
+.edn_modal_body input[type="text"] {
+  margin-bottom: 10px;
+  margin-right: 0;
+}
+.edn_invite_top .row {
+  display: block;
+}
+.edn_invite_top_right {
+  margin-top: 20px;
+}
+.edn_invite_inner_left {
+  margin: 0 auto;
+  width: 100%;
+}
+.pieContainer {
+  margin: 0 auto;
+}
+.header_right svg.fa-angle-down {
+  right: 10px;
+}
+.logo {
+  padding-left: 25px;
+}
+
+}
